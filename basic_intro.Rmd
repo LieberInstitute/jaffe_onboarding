@@ -8,7 +8,18 @@ title: "Basic introduction to common tools"
 
 ## DNAm
 
-* TODO
+* [Measuring cell-type specific differential methylation in human brain tissue](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-8-r94)
+* [From promises to practical strategies in epigenetic epidemiology](https://www.nature.com/articles/nrg3405)
+* [A data-driven approach to preprocessing Illumina 450K methylation array data](https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-14-293)
+* [Epigenetic memory in induced pluripotent stem cells](https://www.nature.com/articles/nature09342)
+* [The human colon cancer methylome shows similar hypo- and hypermethylation at conserved tissue-specific CpG island shores](https://www.nature.com/articles/ng.298)
+* [Bump hunting to identify differentially methylated regions in epigenetic epidemiology studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3304533/)
+* [Analysing and interpreting DNA methylation data](https://www.nature.com/articles/nrg3273)
+* [DNA methylation: roles in mammalian development](https://www.nature.com/articles/nrg3354)
+* [The Key Role of Epigenetics in Human Disease Prevention and Mitigation](https://www.nejm.org/doi/full/10.1056/NEJMra1402513)
+* [Charting a dynamic DNA methylation landscape of the human genome](https://www.nature.com/articles/nature12433)
+* [Global Epigenomic Reconfiguration During Mammalian Brain Development](https://science.sciencemag.org/content/341/6146/1237905.long)
+* [Divergent neuronal DNA methylation patterns across human cortical development: Critical periods and a unique role of CpH methylation](https://www.biorxiv.org/content/10.1101/428391v2.full)
 
 ## `bash` and `linux`
 
