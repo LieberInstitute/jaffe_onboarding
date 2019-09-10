@@ -335,6 +335,12 @@ $(document).ready(function () {
 <li><a href="http://lcolladotor.github.io/2012/11/07/me-bad-rm-dont-delete-stuff-i-didnt-want-to-delete/#.XXft6pNKi50">me: Bad rm, don’t delete stuff I didn’t want to delete! (rm: well, I do what you tell me to do!)</a> 2012 blog post by Leo.</li>
 <li><a href="http://lcolladotor.github.io/2014/02/17/colorout/#.XXfu65NKi50">Automatically coloring your R output in the terminal using colorout</a> blog post by Leo on <code>colorout</code> which you can access through <a href="https://github.com/jalvesaq/colorout">jalvesaq/colorout</a> nowadays and install with <code>remotes::install_github('jalvesaq/colorout')</code>.</li>
 </ul>
+<p>There were a lot of miscellaneous things about using the cluster that might save some confusion if you knew now:</p>
+<ul>
+<li>there’s a 100G storage max on your home directory <code>/users/[yourusername]/</code>, which will likely fill up very quickly. Most of us have directories under the <code>/dcl01</code> and <code>/dcl02</code> filesystems, where there is far more space.</li>
+<li>you generally will want to include the <code>-cwd</code> flag in bash scripts. By default, it will default to dumping output files in your home directory, regardless of where you submit the script.</li>
+<li>for scripts/jobs where you are generating large files, you will need to change the max writeable file size. This is the <code>h_fsize</code> flag for bash scripts, which defaults to 10G. See <a href="https://jhpce.jhu.edu/knowledge-base/how-to/" class="uri">https://jhpce.jhu.edu/knowledge-base/how-to/</a>.</li>
+</ul>
 </div>
 <div id="windows" class="section level2">
 <h2>Windows</h2>

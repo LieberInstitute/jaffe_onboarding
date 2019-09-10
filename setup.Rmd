@@ -17,6 +17,13 @@ Since most analyses we run involve resources larger than those in our laptops, w
 * [me: Bad rm, don't delete stuff I didn't want to delete! (rm: well, I do what you tell me to do!)](http://lcolladotor.github.io/2012/11/07/me-bad-rm-dont-delete-stuff-i-didnt-want-to-delete/#.XXft6pNKi50) 2012 blog post by Leo.
 * [Automatically coloring your R output in the terminal using colorout](http://lcolladotor.github.io/2014/02/17/colorout/#.XXfu65NKi50) blog post by Leo on `colorout` which you can access through [jalvesaq/colorout](https://github.com/jalvesaq/colorout) nowadays and install with `remotes::install_github('jalvesaq/colorout')`.
 
+
+There were a lot of miscellaneous things about using the cluster that might save some confusion if you knew now:
+
+* there's a 100G storage max on your home directory `/users/[yourusername]/`, which will likely fill up very quickly. Most of us have directories under the `/dcl01` and `/dcl02` filesystems, where there is far more space.
+ * you generally will want to include the `-cwd` flag in bash scripts. By default, it will default to dumping output files in your home directory, regardless of where you submit the script.
+* for scripts/jobs where you are generating large files, you will need to change the max writeable file size. This is the `h_fsize` flag for bash scripts, which defaults to 10G. See https://jhpce.jhu.edu/knowledge-base/how-to/.
+
 ## Windows
 
 * **TODO**: WinSCP, putty, etc
