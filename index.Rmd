@@ -6,6 +6,10 @@ This website was created by [Josh Stolz](https://www.linkedin.com/in/josh-stolz-
 
 This project is version controlled at [LieberInstitute/jaffe_onboarding](https://github.com/LieberInstitute/jaffe_onboarding).
 
+## Want to join us?
+
+If you are interested in joining the Andrew E Jaffe Data Science team 1 at the Lieber Institute for Brain Development, check our [careers website](https://www.libd.org/careers/) and [contact Andrew](http://aejaffe.com/).
+
 ```{r 'render_website', eval = FALSE, echo = FALSE}
 ## Dependencies you might need
 if (!requireNamespace("BiocManager", quietly = TRUE))
