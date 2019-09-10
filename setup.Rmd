@@ -1,0 +1,32 @@
+---
+title: "Computer setup"
+---
+
+## JHPCE
+
+Since most analyses we run involve resources larger than those in our laptops, we typically used a high performance computing environment. Particularly,  [JHPCE](https://jhpce.jhu.edu/). One of the first things you'll do is [get a JHPCE account](https://jhpce.jhu.edu/register/user/). Once you do, you'll want to get familiarized with many parts of JHPCE. You can see the archive of questions people have asked through `bithelp` [here](https://lists.johnshopkins.edu/sympa/arc/bithelp).
+
+* Setup password-less login through [ssh keys](https://jhpce.jhu.edu/knowledge-base/authentication/ssh-key-setup/).
+* [Environment modules](https://jhpce.jhu.edu/knowledge-base/environment-modules/) are useful so you don't have to install some common software from stratch, such as `R` which you can load using `module load conda_R`.
+* Use LIBD modules which you can setup following [these instructions](https://github.com/LieberInstitute/jhpce_module_config#recurrent-usage). [jhpce_mod_source](https://github.com/LieberInstitute/jhpce_mod_source) and [jhpce_module_config](https://github.com/LieberInstitute/jhpce_module_config) are our GitHub repositories for our LIBD modules.
+* [Edit your bashrc file for a nicer terminal experience](http://research.libd.org/rstatsclub/post/edit-your-bashrc-file-for-a-nicer-terminal-experience/#.XXfJQ5NKi50) blog post.
+* `r BiocStyle::Githubpkg('LieberInstitute/sgejobs')` ([documentation](http://lieberinstitute.github.io/sgejobs)): contains helper functions for writing and interacting with SGE jobs at JHPCE.
+* [Array and Sequential Cluster Jobs](https://hopstat.wordpress.com/2013/11/05/array-and-sequential-cluster-jobs/). See also `sgejobs::job_single()`.
+* [Setting up your computer for bioinformatics/biostatistics and a compedium of resources](http://lcolladotor.github.io/2012/08/23/setting-up-your-computer-for/#.XXft2pNKi50) 2012 blog post by Leo. Includes some Mac and Windows tools.
+* [Login to the cluster, request a node and change to your project directory in a single command](http://lcolladotor.github.io/2013/12/11/quick-cluster-login-to-interactive-session/#.XXft5JNKi50) 2013 blog post by Leo.
+* [me: Bad rm, don't delete stuff I didn't want to delete! (rm: well, I do what you tell me to do!)](http://lcolladotor.github.io/2012/11/07/me-bad-rm-dont-delete-stuff-i-didnt-want-to-delete/#.XXft6pNKi50) 2012 blog post by Leo.
+* [Automatically coloring your R output in the terminal using colorout](http://lcolladotor.github.io/2014/02/17/colorout/#.XXfu65NKi50) blog post by Leo on `colorout` which you can access through [jalvesaq/colorout](https://github.com/jalvesaq/colorout) nowadays and install with `remotes::install_github('jalvesaq/colorout')`.
+
+## Windows
+
+* **TODO**: WinSCP, putty, etc
+* [git for windows](https://gitforwindows.org/) which includes Git Bash. Check [rstudio issue 2224](https://github.com/rstudio/rstudio/issues/2224) for specifics on how to install Git Bash such that it will work with RStudio terminal.
+
+## Mac
+
+* [Cyberduck](https://cyberduck.io/) for accessing files remotely. With it, you can open any R files at JHPCE with RStudio in your laptop, then open a terminal from RStudio so you can execute your code.
+* [Alfred](https://www.alfredapp.com/) for quickly finding files among many other powerful workflows.
+* [Textmate setup (Mac only)](http://research.libd.org/rstatsclub/post/textmate-setup-mac-only/#.XXfvlZNKi50) LIBD rstats 2018 blog post by Leo; it's an alternative to using RStudio. The blog post also explains `rmate` which now also exists as a LIBD module that you can load with `module load rmate` at JHPCE.
+* [CriticMarkup](http://criticmarkup.com/).
+* [How to sync your Mac's Documents, Desktop, and any other folder to Dropbox](https://www.imore.com/how-sync-your-documents-desktop-and-any-other-folder-dropbox).
+* [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236).

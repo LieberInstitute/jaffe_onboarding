@@ -1,0 +1,36 @@
+---
+title: "Basic introduction to common tools"
+---
+
+## RNA-seq
+
+* TODO
+
+## DNAm
+
+* TODO
+
+## `bash` and `linux`
+
+* [Linux essentials](https://faculty.ucr.edu/~tgirke/Documents/UNIX/linux_manual.html)
+* [The Unix Workbench](https://seankross.com/the-unix-workbench/) by [Sean Kross](http://seankross.com).
+* [Rsync (Remote Sync): 10 Practical Examples of Rsync Command in Linux](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/).
+* [Linux file permissions](http://windowsbulletin.com/filepermissions/).
+* [How To Use Linux Screen -- website 1](https://linuxize.com/post/how-to-use-linux-screen/) and [How To Use Linux Screen -- website 2](https://www.rackaid.com/blog/linux-screen-tutorial-and-how-to/).
+
+## `R`
+
+* Download and install [R from CRAN](https://cran.r-project.org/).
+* [R 101](http://research.libd.org/rstatsclub/post/r_101/#.XXfwU5NKi50) LIBD rstats blog post by [Carrie Wright](https://carriewright11.github.io/).
+* [Download RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop).
+* [Using the RStudio Terminal](https://support.rstudio.com/hc/en-us/articles/115010737148-Using-the-RStudio-Terminal).
+* RStudio [cheatsheets](https://www.rstudio.com/resources/cheatsheets/) for many things including regular expressions, `purrr` for functional programming, etc.
+* [Building Tidy Tools workshop materials](https://rstd.io/tidytools19) by Charlotte Wickham and Hadley Wickham for the rstudio 2019 conference. Materials from other workshops is available [here](https://blog.rstudio.com/2019/02/06/rstudio-conf-2019-workshops/).
+* [R Markdown documentation website](https://rmarkdown.rstudio.com/docs/) announced by [Alison Hill](https://twitter.com/apreshill/status/1171290891157307392?s=20).
+* [Cookbook for R graphs](http://www.cookbook-r.com/Graphs/) with useful `ggplot2` code.
+* [Updating R](http://lcolladotor.github.io/2017/05/04/updating-r/#.XXf3hZNKi50) blog post by Leo.
+* Tutorial for [building R websites](http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html) by [Emily C Zabor](http://www.emilyzabor.com/) which is how this website was made. More on R Markdown websites [here](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html).
+
+## `python`
+
+* TODO

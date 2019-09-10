@@ -1,0 +1,28 @@
+name: "jaffe_onboarding"
+navbar:
+  title: "Jaffe lab onboarding materials"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Basic Intro"
+      href: basic_intro.html
+    - text: "Communication"
+      href: communication.html
+    - text: "Setup"
+      href: setup.html
+    - text: "Analysis"
+      href: analysis.html
+    - text: "Meetings"
+      href: meetings.html
+    - text: "Eating nearby"
+      href: food.html
+    - text: "Baltimore"
+      href: baltimore.html
+  right:
+    - icon: fa-github fa-lg
+      href: http://github.com/LieberInstitute
+output_dir: "."
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'

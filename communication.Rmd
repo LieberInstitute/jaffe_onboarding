@@ -1,0 +1,38 @@
+---
+title: "Lab communication"
+---
+
+Overall, it's important to ask for help. We try to follow the advice from the [you must try, and then you must ask](https://blogs.akamai.com/2013/10/you-must-try-and-then-you-must-ask.html) blog post. Also try to ask in a Slack channel where others might be able to benefit from your answers in the future. If enough people ask about something, we'll try to write a blog post as [advised here](http://varianceexplained.org/r/start-blog/) by [David Robinson](https://twitter.com/drob).
+
+## GitHub
+
+* [LieberInstitute](https://github.com/LieberInstitute/) is our GitHub organization account. After you've made your GitHub account let Andrew E Jaffe or Leonardo Collado-Torres know about your username through Slack so they can add you to our [team](https://github.com/orgs/LieberInstitute/teams/jaffelab).
+* GitHub issues are a useful way to specify tasks for a given project. As an example, check the [libdRSE project](https://github.com/LieberInstitute/libdRSE/issues?utf8=%E2%9C%93&q=).
+* [git to know git: an 8 minute introduction](http://research.libd.org/rstatsclub/post/git-to-know-git/#.XXfvXpNKi50) LIBD rstats blog post by [Amy Peterson](http://amy-peterson.github.io/).
+* [Happy Git and GitHub for the useR](https://happygitwithr.com/) book by [Jenny Bryan](https://jennybryan.org/), [Jim Hester](https://twitter.com/jimhester_?lang=en) and other TAs.
+* Videos by [Jacob Fiksel](https://jfiksel.github.io/) on how to use Git for [Windows](https://www.youtube.com/watch?v=F_fPEMnr1OQ&feature=youtu.be) and [Mac](https://www.youtube.com/watch?v=kbmSZwK0k-A&t).
+* [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) for fixing GitHub repositories that have data files (example, large files) that you want to delete from your history. Use the JHPCE LIBD module for bfg with `module load bfg`.
+* [Commit together with co-authors](https://github.blog/2018-01-29-commit-together-with-co-authors/) such that everyone gets recognized GitHub activity for joint work.
+* [Closing issues using keywords](https://help.github.com/en/articles/closing-issues-using-keywords) in commit messages.
+* [Merging a pull request](https://help.github.com/en/articles/merging-a-pull-request). Also check [this comment by Yihui Xie](https://github.com/rstudio/blogdown/issues/269#issuecomment-370818782) on how to best submit pull requests. Yihui Xie wrote two blog posts related to that particular series of pull requests [here](https://yihui.name/en/2018/03/second-pull-request/).
+* [Syncing a fork](https://help.github.com/en/articles/syncing-a-fork).
+* [How can I undo git reset --hard HEAD~1?](https://stackoverflow.com/questions/5473/how-can-i-undo-git-reset-hard-head1).
+* [Contributing to the LIBD rstats club](http://research.libd.org/rstatsclub/post/contributing-to-the-libd-rstats-club/#.XXfwBpNKi50) blog post if you want to write another LIBD rstats blog post or use `r BiocStyle::CRANpkg('blogdown')`.
+
+## Slack
+
+* We have multiple Slack workspaces, though the main one we use is the JHU Genomics Slack. Ask Andrew E Jaffe or Leonardo Collado-Torres to add you to that slack workspace. Our main lab channel is `#jaffe_lab_group`.
+* [Using Slack for Academic Departmental Communication](http://lcolladotor.github.io/2018/06/19/using-slack-for-academic-departmental-communication/#.XXfVrJNKi50) blog post written by Leo and [Stephanie Hicks](https://www.stephaniehicks.com/).
+* Preferably ask questions on a project channel such that others involved in the project are able to contribute answers. If it's a more general question, try asking in the `#jaffe_lab_group` channel. Beyond our lab, you might want to ask for R help at `#rstats` and JHPCE help at `#jhpce`. You might also want to check out `#jobs`, `#jhu_papers`, `#general`, `#funding`, `#diversity`, `#conferences`, `#random`, `#langmead_rss`.
+* For a new project, create a private channel with the prefix `jaffe_` or `libd_` then invite the lab members who are working on the project or might be able to help.
+* To integrate a GitHub repository with a Slack channel type in the channel the command `/github subscribe LieberInstitute/RepoName`.
+
+
+## Lab calendar
+
+* We have a Google lab calendar. Ask Emily E Burke or Leonardo Collado-Torres via Slack to add you to the calendar with your Google account email address (could be your libd one or could be a gmail account). The calendar is linked to the `#jaffe_lab_group` Slack channel and sends reminders to that channel 30 minutes before an event happens.
+
+## Twitter
+
+* [Tackling Twitter as a Graduate Student](https://biomedicalodyssey.blogs.hopkinsmedicine.org/2019/09/tackling-twitter-as-a-graduate-student/) blog post by [Brianna Barry](https://www.linkedin.com/in/briannabarry/).
+

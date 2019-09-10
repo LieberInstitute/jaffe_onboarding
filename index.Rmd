@@ -1,0 +1,22 @@
+---
+title: "Jaffe lab onboarding"
+---
+
+This website was created by [Josh Stolz](https://www.linkedin.com/in/josh-stolz-97b9a2170/), [Nick Eagles](https://www.linkedin.com/in/nick-eagles-7a5b30161), [Emily E Burke](https://www.linkedin.com/in/emilyeburke/) and [Leonardo Collado-Torres](https://www.linkedin.com/in/lcollado/) to help members of the [Andrew E Jaffe](https://www.linkedin.com/in/ajaffe/) lab get onboarded.
+
+This project is version controlled at [LieberInstitute/jaffe_onboarding](https://github.com/LieberInstitute/jaffe_onboarding).
+
+```{r 'render_website', eval = FALSE, echo = FALSE}
+## Dependencies you might need
+if (!requireNamespace("BiocManager", quietly = TRUE))
+   install.packages("BiocManager")
+
+if (!requireNamespace("BiocStyle", quietly = TRUE))
+   BiocManager::install("BiocStyle")
+
+## To update the website run the following
+rmarkdown::render_site()
+
+## Then commit your changes and upload them (git push)
+```
+

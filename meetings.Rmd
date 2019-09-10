@@ -1,0 +1,19 @@
+---
+title: "Meetings of potential interest"
+---
+
+* [LIBD rstats club](http://research.libd.org/rstatsclub/#.XXfxTpNKi50) described in more detail on [this blog post](http://research.libd.org/rstatsclub/post/welcome-to-the-libd-rstats-club/#.XXfEtJNKi50).
+* Joint genomics meeting: check the `#joint_group_meeting` Slack public channel at the JHU Genomics Slack Workspace.
+* Genomics journal club: for students and trainees, check the `#genomics_journal_club` Slack public channel at the JHU Genomics Slack Workspace.
+* Baltimore R Ladies: check the `#r-ladies` Slack channel as well as [meetup.com/rladies-baltimore/](https://www.meetup.com/rladies-baltimore/). They also have a [website](https://rladies-baltimore.github.io/) with code from earlier sessions and you can find the [slides here](https://github.com/rladies/meetup-presentations_baltimore).
+* JHU Genomics events: check their calendar [here](http://genomics.jhu.edu/events.html). Every year they organize a symposium around October where you can present a poster if you want. They also organize other workshops which you might be interested in signing up for.
+
+
+## Conferences
+
+* BioC: announced [here](http://bioconductor.org/help/events/).
+* ASHG: [website](https://www.ashg.org/).
+* CSHL Biology of Genomes (BoG): through the [CSHL website](https://meetings.cshl.edu/meetingshome.aspx).
+* RStudio conf: [website](https://www.rstudio.com/conference/).
+* Women in Data Science (has multiple meetings), [website](https://www.widsconference.org/).
+* Joint Statistical Meetings (JSM): through the [ASA website](https://www.amstat.org/asa/meetings/home.aspx).

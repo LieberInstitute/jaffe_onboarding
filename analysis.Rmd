@@ -1,0 +1,35 @@
+---
+title: "Commonly used software"
+---
+
+## Bioconductor
+
+* [Where do I start using Bioconductor?](http://lcolladotor.github.io/2014/10/16/startbioc/#.XXf1QZNKi50) blog post by Leo.
+* [How to ask for help for Bioconductor packages](http://lcolladotor.github.io/2017/03/06/how-to-ask-for-help-for-bioconductor-packages/#.XXf1YpNKi50) blog post by Leo.
+* Bioconductor [workflows](https://bioconductor.org/packages/release/BiocViews.html#___Workflow) such as [rnaseqGene](http://bioconductor.org/packages/release/workflows/vignettes/rnaseqGene/inst/doc/rnaseqGene.html) and [sequencing](http://bioconductor.org/packages/release/workflows/vignettes/sequencing/inst/doc/sequencing.html) are very helpful to get started in the RNA sequencing (RNA-seq) field.
+* BioC2019 workshops are available [here](https://rebrand.ly/biocworkshops2019).
+* `r BiocStyle::Biocpkg('limma')`: is one of the main packages we use for analyzing data, particularly with the limma-voom method. Check the Bioconductor workflows that explain limma in more detail [here](https://bioconductor.org/packages/release/BiocViews.html#___Workflow).
+* `r BiocStyle::Biocpkg('GenomicRanges')`: is the package we use for interacting with genomic data across ranges. Check the [introduction](http://bioconductor.org/packages/release/bioc/vignettes/GenomicRanges/inst/doc/GenomicRangesIntroduction.html) for more information.
+* `r BiocStyle::Biocpkg('SummarizedExperiment')`: is the package we use for creating and interacting with `RangedSummarizedExperiment` objects.
+* `r BiocStyle::Biocpkg('bsseq')`: is highly useful for analyzing DNA methylation data, particularly whole genome bisulfite sequencing (WGBS) data.
+* `r BiocStyle::Biocpkg('Biostrings')`: is useful for dealing with sequence information such as the human genome sequence.
+* `r BiocStyle::Biocpkg('recount')`: contains the `getRPKM` function that we use frequently and allows accessing data from many human RNA-seq projects.
+* `r BiocStyle::Biocpkg('derfinder')`: contains functions for BigWig files and other related RNA-seq methods.
+
+## Lab software
+
+* `r BiocStyle::Githubpkg('LieberInstitute/jaffelab')` ([documentation](http://lieberinstitute.github.io/jaffelab)): contains several functions we've written over the years that we find helpful for different analyses.
+* `r BiocStyle::Githubpkg('LieberInstitute/sgejobs')` ([documentation](http://lieberinstitute.github.io/sgejobs)): contains helper functions for writing and interacting with SGE jobs at JHPCE.
+* [jhpce_mod_source](https://github.com/LieberInstitute/jhpce_mod_source) and [jhpce_module_config](https://github.com/LieberInstitute/jhpce_module_config) are our GitHub repositories for our LIBD modules.
+* `r BiocStyle::Githubpkg('LieberInstitute/libdRSE')` ([documentation](http://lieberinstitute.github.io/libdRSE)): is similar to `r BiocStyle::Biocpkg('recount')` for accessing coverage data from LIBD projects.
+* `r BiocStyle::Githubpkg('LieberInstitute/shinycsv')`: allows interactively exploring a table.
+* `r BiocStyle::Githubpkg('LieberInstitute/LIBDpheno')`: contains phenotype information for LIBD samples.
+* `r BiocStyle::Githubpkg('LieberInstitute/recount.bwtool')`: is an R package for dealing with BigWig files using `bwtool`. Check also `r BiocStyle::Githubpkg('ChristopherWilks/bamcount')` by Christopher Wilks.
+* `r BiocStyle::Githubpkg('LieberInstitute/brainflowprobes')`: is an R package for designing flow probes written by [Amanda J Price](https://www.linkedin.com/in/amanda-price-762a982a/).
+* LIBD RNA-seq processing pipeline: [initial version](https://github.com/LieberInstitute/RNAseq-pipeline) and [nextflow version](https://github.com/LieberInstitute/RNAsp).
+* [`globus`](https://github.com/LieberInstitute/globus): our Globus share endpoints such that others can access our data.
+* `r BiocStyle::Githubpkg('ComunidadBioInfo/easyweb')` for easily creating your own personal R markdown website.
+
+## Writing papers
+
+* [How to write academic documents with GoogleDocs using F1000Workspace](https://blog.f1000.com/2019/07/31/how-to-write-academic-documents-with-googledocs-using-f1000workspace/) blog post. Check the [original](http://lcolladotor.github.io/2019/04/02/how-to-write-academic-documents-with-googledocs/#.XXfKcJNKi50) version for some additional information.
