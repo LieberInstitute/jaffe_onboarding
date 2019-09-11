@@ -4,7 +4,15 @@ title: "Basic introduction to common tools"
 
 ## RNA-seq
 
-* TODO
+* [RNA-Seq: a revolutionary tool for transcriptomics](https://www.nature.com/articles/nrg2484)
+* [Advancing RNA-Seq analysis](https://www.nature.com/articles/nbt0510-421)
+* [Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](https://www.nature.com/articles/nprot.2012.016)
+* [TopHat: discovering splice junctions with RNA-Seq](https://academic.oup.com/bioinformatics/article/25/9/1105/203994)
+* [TopHat2: accurate alignment of transcriptomes in the presence of insertions, deletions and gene fusions](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-4-r36)
+* [Systematic evaluation of spliced alignment programs for RNA-seq data](https://www.nature.com/articles/nmeth.2722)
+* [Assessment of transcript reconstruction methods for RNA-seq](https://www.nature.com/articles/nmeth.2714)
+* [Transcriptome and genome sequencing uncovers functional variation in humans](https://www.nature.com/articles/nature12531)
+* [Reproducibility of high-throughput mRNA and small RNA sequencing across laboratories](https://www.nature.com/articles/nbt.2702)
 
 ## DNAm
 
