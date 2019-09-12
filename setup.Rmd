@@ -16,6 +16,7 @@ Since most analyses we run involve resources larger than those in our laptops, w
 * [Login to the cluster, request a node and change to your project directory in a single command](http://lcolladotor.github.io/2013/12/11/quick-cluster-login-to-interactive-session/#.XXft5JNKi50) 2013 blog post by Leo.
 * [me: Bad rm, don't delete stuff I didn't want to delete! (rm: well, I do what you tell me to do!)](http://lcolladotor.github.io/2012/11/07/me-bad-rm-dont-delete-stuff-i-didnt-want-to-delete/#.XXft6pNKi50) 2012 blog post by Leo.
 * [Automatically coloring your R output in the terminal using colorout](http://lcolladotor.github.io/2014/02/17/colorout/#.XXfu65NKi50) blog post by Leo on `colorout` which you can access through [jalvesaq/colorout](https://github.com/jalvesaq/colorout) nowadays and install with `remotes::install_github('jalvesaq/colorout')`.
+* Check Leo's JHPCE configuration files [here](https://github.com/lcolladotor/config_jhpce).
 
 
 There were a lot of miscellaneous things about using the cluster that might save some confusion if you knew now:
