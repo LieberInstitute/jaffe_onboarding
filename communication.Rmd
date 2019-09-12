@@ -26,6 +26,30 @@ Overall, it's important to ask for help. We try to follow the advice from the [y
 * Preferably ask questions on a project channel such that others involved in the project are able to contribute answers. If it's a more general question, try asking in the `#jaffe_lab_group` channel. Beyond our lab, you might want to ask for R help at `#rstats` and JHPCE help at `#jhpce`. You might also want to check out `#jobs`, `#jhu_papers`, `#general`, `#funding`, `#diversity`, `#conferences`, `#random`, `#langmead_rss`.
 * For a new project, create a private channel with the prefix `jaffe_` or `libd_` then invite the lab members who are working on the project or might be able to help.
 * To integrate a GitHub repository with a Slack channel type in the channel the command `/github subscribe LieberInstitute/RepoName`.
+* Slack supports Markdown syntax for your messages, in particular we use a lot the backtick for inline code and the code chunk syntax for multi-line code. Examples:
+
+```
+   `inline code` example
+    
+    ```
+    multi
+    line
+    code
+    example
+    ```
+```
+
+renders into:
+
+`inline code` example
+    
+```
+multi
+line
+code
+example
+```
+    
 
 
 ## Lab calendar
